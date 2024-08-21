@@ -2,7 +2,7 @@ manifestVersion: 1
 id: enzo-privatebin
 name: PrivateBin
 tagline: Pastebin
-icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/swingmusic/icon.png?raw=true
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/privatebin/icon.png?raw=true
 category: 
 version: "1.7.4"
 port: 8080
@@ -16,7 +16,8 @@ submission: https://github.com/PrivateBin/PrivateBin
 repo: https://github.com/PrivateBin/PrivateBin
 support: https://github.com/PrivateBin/PrivateBin
 gallery: 
-  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/swingmusic/1.png?raw=true
+  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/privatebin/1.png?raw=true
+  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/privatebin/2.png?raw=true
 releaseNotes: >-
   - Saving markdown pastes uses .md extension instead of .txt
   - Enable strict type checking in PHP
