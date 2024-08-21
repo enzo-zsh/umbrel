@@ -4,7 +4,7 @@ services:
     image: ghcr.io/privatebin:latest
     container_name: privatebin
     volumes:
-      - ${APP_DATA_DIR}:/srv/data
+      - ${APP_DATA_DIR}/privatebin-data:/srv/data
     ports:
       - "8081:8081"
     restart: unless-stopped
