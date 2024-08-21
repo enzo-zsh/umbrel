@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  swingmusic:
+    image: ghcr.io/privatebin:latest
+    container_name: privatebin
+    volumes:
+      - ${APP_DATA_DIR}:/srv/data
+    ports:
+      - "8081:8081"
+    restart: unless-stopped

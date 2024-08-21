@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: enzo-privatebin
+name: PrivateBin
+tagline: Pastebin
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/swingmusic/icon.png?raw=true
+category: 
+version: "1.7.4"
+port: 8080
+description: >-
+  PrivateBin is a minimalist, open source online pastebin where the server has zero knowledge of pasted data.
+
+developer: PrivateBin
+website: https://privatebin.info
+submitter: enzo-zsh
+submission: https://github.com/PrivateBin/PrivateBin
+repo: https://github.com/PrivateBin/PrivateBin
+support: https://github.com/PrivateBin/PrivateBin
+gallery: 
+  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/swingmusic/1.png?raw=true
+releaseNotes: >-
+  - Saving markdown pastes uses .md extension instead of .txt
+  - Enable strict type checking in PHP
+  - Various tweaks of the bootstrap5 template, suggested by the community
+  - Reset password input field on creation of new paste
+  - Allow database schema upgrade to skip versions
+  - bootstrap5 dark mode toggle unset on dark browser preference
+  - Prevent bypassing YOURLS proxy URL filter, allowing to shorten non-self URLs
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
