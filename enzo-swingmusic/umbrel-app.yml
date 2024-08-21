@@ -2,7 +2,7 @@ manifestVersion: 1
 id: enzo-swingmusic
 name: Swing Music
 tagline: Hosting Music
-icon: https://github.com/enzo-zsh/umbrel-community-app-store/blob/master/screenshot-apps/swingmusic/icon.png
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/swingmusic/icon.png?raw=true
 category: media
 version: "1.4.8"
 port: 1970
@@ -16,7 +16,8 @@ submitter: enzo-zsh
 submission: https://github.com/swingmx/swingmusic
 repo: https://github.com/swingmx/swingmusic
 support: https://github.com/swingmx/swingmusic
-gallery: https://github.com/enzo-zsh/umbrel-community-app-store/blob/master/screenshot-apps/swingmusic/1.png
+gallery: 
+  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/swingmusic/1.png?raw=true
 releaseNotes: >-
   - New opt-in alternate (no sidebar) layout
   - Added search bar to the top bar (all layouts)
