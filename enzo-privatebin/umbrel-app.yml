@@ -1,9 +1,9 @@
 manifestVersion: 1
 id: enzo-privatebin
 name: PrivateBin
-tagline: Pastebin
+tagline: pastebin
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/privatebin/icon.png?raw=true
-category: 
+category: pastebin
 version: "1.7.4"
 port: 8080
 description: >-
