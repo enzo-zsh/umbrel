@@ -5,7 +5,7 @@ tagline: Hosting Music
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/swingmusic/icon.png?raw=true
 category: media
 version: "1.4.8"
-port: 1970
+port: 3689
 description: >-
   Swing Music is a beautiful, self-hosted music player for your local audio files. 
   Like a cooler Spotify ... but bring your own music.

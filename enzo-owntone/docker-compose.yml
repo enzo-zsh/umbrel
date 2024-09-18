@@ -1,11 +1,6 @@
 version: "3.8"
 
 services:
-  app_proxy:
-    environment:
-      APP_HOST: enzo-owntown
-      APP_PORT: 3689
-
   owntone:
     image: docker.io/owntone/owntone:latest
     container_name: enzo-owntone
