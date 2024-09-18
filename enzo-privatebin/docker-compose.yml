@@ -1,8 +1,13 @@
-version: "3.3"
+version: "3.7"
+
 services:
-  privatebin:
-    image: ghcr.io/privatebin:latest
-    container_name: privatebin
+  app_proxy:
+    environment:
+      APP_HOST: enzo-privatebin
+      APP_PORT: 8081
+  server:
+    container_name: enzo-privatebin
+    image: privatebin/nginx-fpm-alpine
     volumes:
       - ${APP_DATA_DIR}/privatebin-data:/srv/data
     ports:
