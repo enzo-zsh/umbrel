@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+
+  app_proxy:
+    environment:
+      APP_HOST: enzo-owntown
+
+  owntone:
+    image: docker.io/owntone/owntone:latest
+    container_name: enzo-owntone
+    network_mode: host
+    environment:
+      - UID=1000
+      - GID=1000
+    volumes:
+      - ${APP_DATA_DIR}/etc/owntone:/etc/owntone
+      - ${APP_DATA_DIR}/mnt/media:/srv/media
+      - ${APP_DATA_DIR}/var/cache/owntone:/var/cache/owntone
+    restart: unless-stopped

@@ -1,6 +1,6 @@
 manifestVersion: 1
-id: enzo-daapd
-name: Daapd
+id: enzo-owntone
+name: Owntone
 tagline: Hosting Music
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/swingmusic/icon.png?raw=true
 category: media
