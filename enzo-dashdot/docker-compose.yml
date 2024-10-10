@@ -7,7 +7,7 @@ services:
     ports:
       - 3001:3001
     volumes:
-      - ./dashbot:/mnt/host:ro
+      - ./dashdot:/mnt/host:ro
     environment:
       - DASHDOT_SHOW_HOST=false
       - DASHDOT_SHOW_DASH_VERSION=true
