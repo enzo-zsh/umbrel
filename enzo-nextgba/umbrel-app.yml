@@ -9,28 +9,18 @@ port: 3000
 description: >-
   Self-hosted app to play Gameboy games in your browser.
 
-developer: Swingmx
-website: https://github.com/swingmx/swingmusic
+developer: meienberger
+website: https://github.com/meienberger/nextgba/
 submitter: enzo-zsh
-submission: https://github.com/swingmx/swingmusic
-repo: https://github.com/swingmx/swingmusic
-support: https://github.com/swingmx/swingmusic
+submission: https://github.com/meienberger/nextgba/
+repo: https://github.com/meienberger/nextgba/
+support: https://github.com/meienberger/nextgba/
 gallery: 
   - https://github.com/meienberger/nextgba/blob/main/screenshots/main.png?raw=true
   - https://github.com/meienberger/nextgba/blob/main/screenshots/upload.png?raw=true
   - https://github.com/meienberger/nextgba/blob/main/screenshots/ingame.png?raw=true
 releaseNotes: >-
-  - New opt-in alternate (no sidebar) layout
-  - Added search bar to the top bar (all layouts)
-  - Move browse options to homepage bottom
-  - Content is now centered on the default layout
-  - Move to a stronger WSGI server (waitress)
-  - Proper ARM64 and other platforms support
-  - A proper timezone fix. Thanks to @tcsenpai on #170
-  - Hovering over a recently played/added item on the homepage will reveal how long ago
-  - Recently added items will not have a cutoff
-  - Folder page search is gone for now (we'll find a place to fix it in later versions)
-  - The exhaustive list of web client stuff can be found on commit 4211ccc in the client repo.
+  - rewrite the application with https://remix.run
 dependencies: []
 path: ""
 defaultUsername: ""
