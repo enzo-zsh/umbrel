@@ -1,4 +1,3 @@
-version: "3.5"
 services:
   dashdot:
     image: mauricenino/dashdot:latest
@@ -6,9 +5,9 @@ services:
     container_name: dashdot
     privileged: true
     ports:
-      - ${APP_PORT}:3001
+      - 3001:3001
     volumes:
-      - ${APP_DATA_DIR}/dashbot:/mnt/host:ro
+      - ./dashbot:/mnt/host:ro
     environment:
       - DASHDOT_SHOW_HOST=false
       - DASHDOT_SHOW_DASH_VERSION=true

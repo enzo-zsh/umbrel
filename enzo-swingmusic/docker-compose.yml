@@ -1,16 +1,10 @@
-version: "3.7"
-
 services:
-  app_proxy:
-    environment:
-      APP_HOST: enzo-swingmusic
-      APP_PORT: 1970
-  server:
-    container_name: enzo-swingmusic
+  swingmusic:
     image: ghcr.io/swingmx/swingmusic:latest
-    volumes:
-      - ~/music:/music
-      - ${APP_DATA_DIR}/config:/config
+    container_name: swingmusic
     ports:
       - "1970:1970"
+    volumes:
+      - ./music:/music
+      - ./config:/config
     restart: unless-stopped
