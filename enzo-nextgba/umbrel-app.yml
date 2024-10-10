@@ -2,7 +2,7 @@ manifestVersion: 1
 id: enzo-nextgba
 name: NextGBA
 tagline: Video Games
-icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/swingmusic/icon.png?raw=true
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/nextgba/logo.jpg?raw=true
 category: video games
 version: "0.1.0"
 port: 3000
