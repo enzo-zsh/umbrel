@@ -4,32 +4,40 @@ name: OwntoneTest
 tagline: Hosting Music
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/swingmusic/icon.png?raw=true
 category: media
-version: "1.4.8"
+version: "28.10"
 port: 3689
 description: >-
-  Swing Music is a beautiful, self-hosted music player for your local audio files. 
-  Like a cooler Spotify ... but bring your own music.
+  OwnTone is an open source (audio) media server for GNU/Linux, FreeBSD and macOS.
 
 developer: Swingmx
-website: https://github.com/swingmx/swingmusic
+website: https://owntone.github.io/owntone-server/
 submitter: enzo-zsh
-submission: https://github.com/swingmx/swingmusic
-repo: https://github.com/swingmx/swingmusic
-support: https://github.com/swingmx/swingmusic
+submission: https://github.com/owntone/owntone-server
+repo: https://github.com/owntone/owntone-server
+support: https://github.com/owntone/owntone-server
 gallery: 
-  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/swingmusic/1.png?raw=true
+  - https://github.com/owntone/owntone-server/blob/master/docs/assets/images/screenshot-now-playing.png?raw=true
+  - https://github.com/owntone/owntone-server/blob/master/docs/assets/images/screenshot-music-albums.png?raw=true
+  - https://github.com/owntone/owntone-server/blob/master/docs/assets/images/screenshot-files.png?raw=true
+  - https://github.com/owntone/owntone-server/blob/master/docs/assets/images/screenshot-music-spotify.png?raw=true
 releaseNotes: >-
-  - New opt-in alternate (no sidebar) layout
-  - Added search bar to the top bar (all layouts)
-  - Move browse options to homepage bottom
-  - Content is now centered on the default layout
-  - Move to a stronger WSGI server (waitress)
-  - Proper ARM64 and other platforms support
-  - A proper timezone fix. Thanks to @tcsenpai on #170
-  - Hovering over a recently played/added item on the homepage will reveal how long ago
-  - Recently added items will not have a cutoff
-  - Folder page search is gone for now (we'll find a place to fix it in later versions)
-  - The exhaustive list of web client stuff can be found on commit 4211ccc in the client repo.
+  - fix: Playlist scanner ignoring lines starting with non-ascii chars
+  - fix: Apple Music password-based auth
+  - fix: missing file scan when modified multiple times within a second
+  - fix: Roku M1001 crash
+  - fix: speakers changing IP addresses (error "Got RR type A size 16")
+  - fix:playlist rename not registered
+  - fix: problems with DAAP and old dates ("Integer value too large")
+  - fix: compability with ffmpeg 7 (fixes build error)
+  - web UI: many smaller improvements, e.g. sort by release date
+  - web UI: traditional Chinese translation
+  - new: ALAC transcoding for RSP/DAAP streaming
+  - new: ability to save id3 metadata
+  - config: "trusted_networks" to have new value "lan" as default
+  - config: new option to announce a MPD httpd plugin (stream from server)
+  - config: set ipv6 to disabled by default due to unknown Airplay issue
+  - config: deprecate "cache_path", replaced by "cache_dir"
+  - dependancy: ibxml2 instead of mxml
 dependencies: []
 path: ""
 defaultUsername: ""

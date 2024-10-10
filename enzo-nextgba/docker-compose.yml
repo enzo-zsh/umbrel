@@ -1,0 +1,8 @@
+services:
+  nextgba:
+    container_name: nextgba
+    image: ghcr.io/meienberger/nextgba:latest
+    ports:
+      - 3000:3000
+    volumes:
+      - ./data/games:/data/games

@@ -1,15 +1,9 @@
-version: "3.7"
-
 services:
-  app_proxy:
-    environment:
-      APP_HOST: enzo-privatebin
-      APP_PORT: 8081
-  server:
-    container_name: enzo-privatebin
-    image: privatebin/nginx-fpm-alpine
-    volumes:
-      - ${APP_DATA_DIR}/privatebin-data:/srv/data
+  privatebin:
+    image: privatebin/nginx-fpm-alpine:1.7.4
+    container_name: privatebin
     ports:
-      - "8081:8081"
+      - 8082:8080
     restart: unless-stopped
+    volumes:
+      - ./data:/srv/data

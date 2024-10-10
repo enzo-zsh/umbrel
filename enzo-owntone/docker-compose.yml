@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   owntone:
     image: docker.io/owntone/owntone:latest
@@ -8,9 +6,9 @@ services:
       - UID=1000
       - GID=1000
     volumes:
-      - ${APP_DATA_DIR}/etc/owntone:/etc/owntone
-      - ${APP_DATA_DIR}/mnt/media:/srv/media
-      - ${APP_DATA_DIR}/var/cache/owntone:/var/cache/owntone
+      - ./etc/owntone:/etc/owntone
+      - ./mnt/media:/srv/media
+      - ./var/cache/owntone:/var/cache/owntone
     ports:
       - "3689:3689"
     restart: unless-stopped
