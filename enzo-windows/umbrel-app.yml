@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: enzo-windows
-name: Swing Music
+name: Windows
 tagline: Windows inside a Docker container. (64 bit)
 icon: https://raw.githubusercontent.com/dockur/windows/master/.github/logo.png?raw=true
 category: operating system
