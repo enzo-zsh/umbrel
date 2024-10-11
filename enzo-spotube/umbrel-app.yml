@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: enzo-spotube
+name: Spotube
+tagline: Streaming Service
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/nextgba/logo.png?raw=true
+category: music
+version: "3.8.3"
+port: 3001
+description: >-
+  Spotube on your Umbrel is now here!
+  Spotube is an open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, 
+  Piped.video or JioSaavn as an audio source, eliminating the need for Spotify Premium.
+developer: KRTirtho
+website: https://spotube.krtirtho.dev
+submitter: enzo-zsh
+submission: https://github.com/KRTirtho/
+repo: https://github.com/KRTirtho/spotube?referrer=spotube.krtirtho.dev
+support: https://github.com/KRTirtho/spotube?referrer=spotube.krtirtho.dev
+gallery: 
+  - https://raw.githubusercontent.com/KRTirtho/spotube/master/assets/spotube-screenshot.png?raw=true
+releaseNotes: >-
+  - rewrite the application with https://remix.run
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
