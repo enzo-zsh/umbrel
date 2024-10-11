@@ -5,6 +5,17 @@ services:
     ports:
       - "1970:1970"
     volumes:
-      - ./music:/music
-      - ./config:/config
+      - ${APP_DATA_DIR}/config:/config
+      - ${APP_DATA_DIR}/music:/music
     restart: unless-stopped
+    environment:
+      - PUID=1000
+      - PGID=1000
+
+  fix_permissions:
+    image: ghcr.io/swingmx/swingmusic:latest
+    container_name: denny-swingmusic_fix_permissions
+    volumes:
+      - ${APP_DATA_DIR}/music:/music
+    entrypoint: ["sh", "-c", "chmod -R 777 /music"]
+    restart: "no"
