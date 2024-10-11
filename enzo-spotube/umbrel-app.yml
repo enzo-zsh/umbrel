@@ -2,7 +2,7 @@ manifestVersion: 1
 id: enzo-spotube
 name: Spotube
 tagline: Streaming Service
-icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/nextgba/logo.png?raw=true
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/spotube/icon.png?raw=true
 category: music
 version: "3.8.3"
 port: 3001
