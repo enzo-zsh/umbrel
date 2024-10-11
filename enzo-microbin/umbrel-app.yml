@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: enzo-microbin
+name: Microbin
+tagline: pastebin
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/microbin/icon.png?raw=true
+category: pastebin
+version: "2.0.4"
+port: 8065
+description: >-
+  A secure, configurable file-sharing and URL shortening web app written in Rust. 
+
+developer: szabodanika
+website: https://github.com/szabodanika/microbin
+submitter: enzo-zsh
+submission: https://github.com/enzo-zsh/umbrel
+repo: https://github.com/szabodanika/microbin
+support: https://github.com/szabodanika/microbin
+gallery: 
+  - https://github.com/szabodanika/microbin/blob/master/.github/index.png?raw=true
+releaseNotes: >-
+  Check https://github.com/szabodanika/microbin/releases/tag/v2.0.4
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
