@@ -16,7 +16,7 @@ services:
       - ./puter/config:/etc/puter
       - ./puter/data:/var/puter
     healthcheck:
-      test: wget --no-verbose --tries=1 --spider http://umbrel.localhost:4100/test || exit 1
+      test: wget --no-verbose --tries=1 --spider http://umbrel.local:4100/test || exit 1
       interval: 30s
       timeout: 3s
       retries: 3
