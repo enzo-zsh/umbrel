@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: enzo-windows
+name: Swing Music
+tagline: Windows inside a Docker container. (64 bit)
+icon: https://raw.githubusercontent.com/dockur/windows/master/.github/logo.png?raw=true
+category: operating system
+version: "3.22"
+port: 8006
+description: >-
+  /!\ ADVANCED USER ONLY
+
+  
+  Please check documentation! at : https://github.com/dockur/windows
+
+
+  For modifying the docker compose file, go enter with Terminal : sudo nano /home/umbrel/app-data/enzo-windows/docker-compose.yml
+
+developer: dockur
+website: https://github.com/dockur/windows
+submitter: enzo-zsh
+submission: https://github.com/dockur/windows
+repo: https://github.com/dockur/windows
+support: https://github.com/dockur/windows
+gallery: 
+  - https://www.it-connect.fr/wp-content-itc/uploads/2017/10/slide-windows-10-88.jpg
+releaseNotes: >
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
