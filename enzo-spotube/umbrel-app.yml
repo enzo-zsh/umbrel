@@ -13,13 +13,12 @@ description: >-
 developer: KRTirtho
 website: https://spotube.krtirtho.dev
 submitter: enzo-zsh
-submission: https://github.com/KRTirtho/
+submission: https://github.com/enzo-zsh/umbrel
 repo: https://github.com/KRTirtho/spotube?referrer=spotube.krtirtho.dev
 support: https://github.com/KRTirtho/spotube?referrer=spotube.krtirtho.dev
 gallery: 
   - https://raw.githubusercontent.com/KRTirtho/spotube/master/assets/spotube-screenshot.png?raw=true
-releaseNotes: >-
-  - rewrite the application with https://remix.run
+releaseNotes: >
 dependencies: []
 path: ""
 defaultUsername: ""
