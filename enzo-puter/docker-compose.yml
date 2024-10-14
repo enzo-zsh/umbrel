@@ -1,7 +1,9 @@
+version: "3.9"
+
 services:
   app_proxy:
     environment:
-      APP_HOST: enzo-puter
+      APP_HOST: enzo-puter_web_1
       APP_PORT: 4100
       PROXY_AUTH_ADD: "false"
 
