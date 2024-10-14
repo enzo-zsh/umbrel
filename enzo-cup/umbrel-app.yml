@@ -2,7 +2,8 @@ manifestVersion: 1
 id: enzo-cup
 name: Cup
 tagline: Docker Monitor
-icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/cup/logo.png?raw=true
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/cup/icon.png?raw=true
+
 category: system
 version: "2.4.0"
 port: 9000
