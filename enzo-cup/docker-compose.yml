@@ -1,0 +1,10 @@
+services:
+  cup:
+    image: ghcr.io/sergi0g/cup:latest
+    container_name: cup
+    command: serve -p 9000
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped

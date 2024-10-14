@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: enzo-cup
+name: Cup
+tagline: Docker Monitor
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/cup/logo.png?raw=true
+category: system
+version: "2.4.0"
+port: 9000
+description: >-
+  🥤 Docker container updates made easy
+
+developer: sergi0g
+website: https://github.com/sergi0g/cup
+submitter: enzo-zsh
+submission: https://github.com/enzo-zsh/umbrel
+repo: https://github.com/sergi0g/cup
+support: https://github.com/sergi0g/cup
+gallery: 
+  - https://github.com/sergi0g/cup/blob/main/screenshots/web_dark.png?raw=true
+  - https://github.com/sergi0g/cup/blob/main/screenshots/web_light.png?raw=true
+releaseNotes: >-
+  Check: https://github.com/sergi0g/cup/releases/latest
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
