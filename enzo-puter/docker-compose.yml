@@ -1,7 +1,7 @@
 services:
   app_proxy:
     environment:
-      APP_HOST: denny-enzo_web
+      APP_HOST: enzo-puter
       APP_PORT: 4100
       PROXY_AUTH_ADD: "false"
 
