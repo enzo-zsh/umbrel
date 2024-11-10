@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: enzo-emulatorjs
+name: EmulatorJS
+tagline: Video Games
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/nextgba/logo.png?raw=true
+category: video games
+version: "0.1.0"
+port: 3000
+description: >-
+  Self-hosted app to play Gameboy games in your browser.
+
+developer: meienberger
+website: https://github.com/meienberger/nextgba/
+submitter: enzo-zsh
+submission: https://github.com/enzo-zsh/umbrel
+repo: https://github.com/meienberger/nextgba/
+support: https://github.com/meienberger/nextgba/
+gallery: 
+  - https://github.com/meienberger/nextgba/blob/main/screenshots/main.png?raw=true
+  - https://github.com/meienberger/nextgba/blob/main/screenshots/upload.png?raw=true
+  - https://github.com/meienberger/nextgba/blob/main/screenshots/ingame.png?raw=true
+releaseNotes: >-
+  - rewrite the application with https://remix.run
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
