@@ -17,8 +17,7 @@ submission: https://github.com/enzo-zsh/umbrel
 repo: https://github.com/sergi0g/cup
 support: https://github.com/sergi0g/cup
 gallery: 
-  - https://github.com/sergi0g/cup/blob/main/screenshots/web_dark.png?raw=true
-  - https://github.com/sergi0g/cup/blob/main/screenshots/web_light.png?raw=true
+  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/cup/1.png?raw=true
 releaseNotes: >-
   Check: https://github.com/sergi0g/cup/releases/latest
 dependencies: []
