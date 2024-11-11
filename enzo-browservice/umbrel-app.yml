@@ -12,7 +12,7 @@ description: >-
   It works by rendering the browser viewport into images, 
   which are then shown by a JavaScript application running on the client browser.
 
-  	
+  ⚠️ THIS CONTAINER RUN IN PRIVILIGIED MODE.
     
     •	Remote Browser Access: Enables viewing and interacting with modern websites on older computers via remote browsing.
     

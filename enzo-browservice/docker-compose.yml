@@ -7,3 +7,4 @@ services:
       resources:
         limits:
           memory: "2g"
+    privileged: true
