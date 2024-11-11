@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: enzo-browservice
+name: Browservice
+tagline: Web Browser
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/browservice/icon.png?raw=true
+
+category: Internet
+version: "0.9.10.0"
+port: 8088
+description: >-
+  
+  A web "proxy" server that enables browsing the modern web on historical browsers. 
+  It works by rendering the browser viewport into images, 
+  which are then shown by a JavaScript application running on the client browser.
+
+developer: ttalvitie
+website: https://github.com/ttalvitie/browservice
+submitter: enzo-zsh
+submission: https://github.com/enzo-zsh/umbrel
+repo: https://github.com/ttalvitie/browservice
+support: https://github.com/ttalvitie/browservice
+gallery: 
+  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/beszel/1.png?raw=true
+releaseNotes: >-
+  Check: https://github.com/ttalvitie/browservice/releases/latest
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

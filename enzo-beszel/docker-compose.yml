@@ -1,9 +1,5 @@
 services:
-  beszel:
-    image: henrygd/beszel
-    container_name: beszel
-    restart: unless-stopped
+  browservice:
+    image: 'walkero/browservice:latest-amd64'
     ports:
-      - '8090:8090'
-    volumes:
-      - ${APP_DATA_DIR}/data:/beszel_data
+    - 8088:8080
