@@ -40,7 +40,9 @@ submission: https://github.com/enzo-zsh/umbrel
 repo: https://github.com/henrygd/beszel
 support: https://github.com/henrygd/beszel
 gallery: 
-  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/cup/1.png?raw=true
+  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/beszel/1.png?raw=true
+  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/beszel/2.png?raw=true
+  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/beszel/3.png?raw=true
 releaseNotes: >-
   Check: https://github.com/henrygd/beszel/releases/latest
 dependencies: []
