@@ -1,0 +1,49 @@
+manifestVersion: 1
+id: enzo-beszel
+name: Beszel
+tagline: Docker Monitor
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/beszel/icon.png?raw=true
+
+category: system
+version: "0.7.4"
+port: 8090
+description: >-
+  Lightweight server monitoring hub with historical data, docker stats, and alerts. 
+  
+  🪶 - Lightweight: Smaller and less resource-intensive than leading solutions.
+
+
+  ✌🏼 - Simple: Easy setup, no need for public internet exposure.
+
+
+  🐳 - Docker stats: Tracks CPU, memory, and network usage history for each container.
+
+
+  🔔 - Alerts: Configurable alerts for CPU, memory, disk, bandwidth, temperature, and system status.
+
+
+  🧑‍🧑‍🧒 - Multi-user: Each user manages their own systems. Admins can share systems across users.
+
+
+  🔐 - OAuth / OIDC: Supports multiple OAuth2 providers. Password authentication can be disabled.
+
+
+  💽 - Automatic backups: Save and restore data from disk or S3-compatible storage.
+
+
+  🛜 - REST API: Use or update your data in your own scripts and applications.
+
+developer: henrygd
+website: https://github.com/henrygd/beszel
+submitter: enzo-zsh
+submission: https://github.com/enzo-zsh/umbrel
+repo: https://github.com/henrygd/beszel
+support: https://github.com/henrygd/beszel
+gallery: 
+  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/cup/1.png?raw=true
+releaseNotes: >-
+  Check: https://github.com/henrygd/beszel/releases/latest
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
