@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: enzo-dokemon
+name: Dokémon
+tagline: Docker Container Management GUI
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/dokemon/icon.png?raw=true
+category: Docker monitoring
+version: "1.5.9"
+port: 9090
+description: >-
+  Deploy compose files, start/stop containers, delete unused images, view logs.
+
+developer: productiveops
+website: https://github.com/productiveops/dokemon
+submitter: enzo-zsh
+submission: https://github.com/enzo-zsh/umbrel
+repo: https://github.com/productiveops/dokemon
+support: https://github.com/productiveops/dokemon
+gallery: 
+  - https://dokemon.dev/screenshot-dokemon-nodes.jpg
+  - https://dokemon.dev/screenshot-dokemon-variables.jpg
+  - https://dokemon.dev/screenshot-dokemon-compose-up.jpg
+  - https://dokemon.dev/screenshot-dokemon-containers.jpg
+releaseNotes: >-
+  - Check : https://github.com/productiveops/dokemon/releases
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

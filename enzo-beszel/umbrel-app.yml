@@ -1,10 +1,10 @@
 manifestVersion: 1
 id: enzo-beszel
 name: Beszel
-tagline: Server Monitor
+tagline: Lightweight server monitoring hub with historical data, docker stats, and alerts.
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/beszel/icon.png?raw=true
 
-category: system
+category: Docker monitoring
 version: "0.7.4"
 port: 8090
 description: >-
