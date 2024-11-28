@@ -2,7 +2,7 @@ manifestVersion: 1
 id: enzo-numworks
 name: Numworks
 tagline: Numworks calculator on your Umbrel
-icon: screenshots-icon/numworks/icon.png
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/numworks/icon.png?raw=true
 category: In Progress
 version: "1.0.0"
 port: 8098
@@ -20,9 +20,9 @@ submission: https://github.com/enzo-zsh/umbrel
 repo: https://github.com/numworks/epsilon
 support: https://github.com/numworks/epsilon
 gallery: 
-  - screenshots-icon/numworks/wip.jpg
-  - screenshots-icon/numworks/wip.jpg
-  - screenshots-icon/numworks/wip.jpg
+  - https://raw.githubusercontent.com/enzo-zsh/umbrel/refs/heads/master/screenshots-icon/numworks/wip.jpg?raw=true
+  - https://raw.githubusercontent.com/enzo-zsh/umbrel/refs/heads/master/screenshots-icon/numworks/wip.jpg?raw=true
+  - https://raw.githubusercontent.com/enzo-zsh/umbrel/refs/heads/master/screenshots-icon/numworks/wip.jpg?raw=true
 releaseNotes: >-
 dependencies: []
 path: ""
