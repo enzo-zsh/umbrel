@@ -1,8 +1,6 @@
----
 services:
   pairdrop:
     image: lscr.io/linuxserver/pairdrop:latest
-    container_name: enzo-pairdrop
     environment:
       - PUID=1000
       - PGID=1000
@@ -13,7 +11,7 @@ services:
       - DEBUG_MODE=false #optional
     ports:
       - 3099:3000
-    restart: unless-stopped
+    restart: on-failure
 
   app_proxy:
     environment:
