@@ -14,3 +14,9 @@ services:
     ports:
       - 3099:3000
     restart: unless-stopped
+
+  app_proxy:
+    environment:
+      APP_HOST: enzo-pairdrop_server_1
+      APP_PORT: 3099
+      PROXY_AUTH_ADD: "false"
