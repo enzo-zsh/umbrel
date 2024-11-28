@@ -3,7 +3,7 @@ id: enzo-dokemon
 name: Dokémon
 tagline: Docker Container Management GUI
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/dokemon/icon.png?raw=true
-category: Docker monitoring
+category: In Progress
 version: "1.5.9"
 port: 9090
 description: >-

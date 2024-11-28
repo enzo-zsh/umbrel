@@ -3,7 +3,7 @@ services:
     image: productiveops/dokemon:latest
     container_name: enzo-dokemon
     ports:
-      - "9090:9090"
+      - "9990:9090"
     volumes:
       - ${APP_DATA_DIR}/dokemondata:/data
       - var/run/docker.sock:/var/run/docker.sock
