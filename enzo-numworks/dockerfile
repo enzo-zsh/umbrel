@@ -1,0 +1,29 @@
+# Utiliser une image Debian comme base
+FROM debian:bullseye
+
+# Mettre à jour et installer les paquets nécessaires
+RUN apt-get update && apt-get install -y \
+    apache2 \
+    unzip \
+    wget \
+    && apt-get clean
+
+# Télécharger et extraire le simulateur NumWorks dans le dossier web d'Apache
+RUN wget -O /tmp/numworks-simulator.zip https://cdn.numworks.com/158237c9/numworks-simulator-23.2.1.zip \
+    && unzip /tmp/numworks-simulator.zip -d /var/www/html/numworks \
+    && rm /tmp/numworks-simulator.zip
+
+# Configurer Apache pour rediriger / vers /numworks/index.html
+RUN echo '<VirtualHost *:80>\n\
+    DocumentRoot /var/www/html\n\
+    RedirectMatch ^/$ /numworks/index.html\n\
+</VirtualHost>' > /etc/apache2/sites-available/000-default.conf
+
+# Assurer que les fichiers appartiennent au bon utilisateur Apache
+RUN chown -R www-data:www-data /var/www/html/numworks && chmod -R 755 /var/www/html/numworks
+
+# Exposer le port 80 pour le serveur web
+EXPOSE 80
+
+# Démarrer Apache au premier plan
+CMD ["apachectl", "-D", "FOREGROUND"]

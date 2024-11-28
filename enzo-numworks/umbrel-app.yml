@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: enzo-numworks
+name: Numworks
+tagline: Numworks calculator on your Umbrel
+icon: screenshots-icon/numworks/icon.png
+category: In Progress
+version: "1.0.0"
+port: 8098
+description: >-
+  Numworks calculator on your Umbrel
+
+  🧮 Powered by Epsilon
+
+  💻 Powered by Apache2 web server
+
+developer: Numworks
+website: https://github.com/numworks/epsilon
+submitter: enzo-zsh
+submission: https://github.com/enzo-zsh/umbrel
+repo: https://github.com/numworks/epsilon
+support: https://github.com/numworks/epsilon
+gallery: 
+  - screenshots-icon/numworks/wip.jpg
+  - screenshots-icon/numworks/wip.jpg
+  - screenshots-icon/numworks/wip.jpg
+releaseNotes: >-
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
