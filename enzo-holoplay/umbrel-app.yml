@@ -1,0 +1,51 @@
+manifestVersion: 1
+id: enzo-holoplay
+name: Holoplay
+tagline: music
+icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/holoplay/icon.png?raw=true
+category: music
+version: "1.12.3"
+port: 3000
+description: >-
+  HoloPlay is a Youtube alternative app using Invidious API. You can save music to favoris or create your playlists. This project is fully open source.
+  
+  ✨ Features
+
+    - Search on Invidious or Youtube Music
+
+    - Search videos, playlists and channels
+
+    - Create your playlists
+
+    - Save videos, playlists and channels in favorites
+
+    - Download source
+
+    - Data Syncing between devices (by using Holoplay Serverless
+    
+    - Internationalization : 🏴󠁧󠁢󠁥󠁮󠁧󠁿 English, 🇫🇷 French, 🇯🇵 Japanese, 🇷🇺 Russian and 🇩🇪 German
+
+    - Respect your privacy
+
+    - Sponsor Block
+
+    - Responsive
+
+    - Dark Theme
+
+    - Background mode with PWA installation
+
+developer: stephane-r
+website: https://github.com/stephane-r/holoplay-pwa
+submitter: enzo-zsh
+submission: https://github.com/enzo-zsh/umbrel
+repo: https://github.com/stephane-r/holoplay-pwa
+support: https://github.com/stephane-r/holoplay-pwa
+gallery: 
+  - https://github.com/szabodanika/microbin/blob/master/.github/index.png?raw=true
+releaseNotes: >-
+  Check https://github.com/stephane-r/holoplay-pwa/releases/tag/v1.12.3
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
