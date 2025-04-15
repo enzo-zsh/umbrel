@@ -19,6 +19,8 @@ RUN echo '<VirtualHost *:80>\n\
     RedirectMatch ^/$ /numworks/index.html\n\
 </VirtualHost>' > /etc/apache2/sites-available/000-default.conf
 
+RUN mv /var/www/html/numworks/numworks-simulator-23.2.1.html /var/www/html/numworks/index.html
+
 # Assurer que les fichiers appartiennent au bon utilisateur Apache
 RUN chown -R www-data:www-data /var/www/html/numworks && chmod -R 755 /var/www/html/numworks
 

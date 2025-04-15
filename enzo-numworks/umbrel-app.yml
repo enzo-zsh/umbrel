@@ -3,7 +3,7 @@ id: enzo-numworks
 name: Numworks
 tagline: Numworks calculator on your Umbrel
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/numworks/icon.png?raw=true
-category: In Progress
+category: Maths
 version: "1.0.0"
 port: 8098
 description: >-
