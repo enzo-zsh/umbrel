@@ -1,9 +1,9 @@
 services:
   numworks:
-    build: .
+    image: enzoz5h/numworks:latest
     container_name: enzo-numworks
     ports:
       - "8098:80"
     volumes:
-      - ./config:/var/www/html/config
+      - ./config:/var/www/html/
     restart: unless-stopped
