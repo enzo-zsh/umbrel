@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: enzo-nextgba
 name: NextGBA
-tagline: Video Games
+tagline: Play GBA games in your browser
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/nextgba/logo.png?raw=true
 category: video games
 version: "0.1.0"

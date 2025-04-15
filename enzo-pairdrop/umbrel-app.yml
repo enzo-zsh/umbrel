@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: enzo-paidrop
 name: PairDrop
-tagline: AirDrop-Like
+tagline: AirDrop-Like File Sharing
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/pairdrop/icon.png?raw=true
 category: file sender
 version: "1.10.10"

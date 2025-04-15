@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: enzo-dashdot
 name: Dashdot
-tagline: System Monitor
+tagline: Monitor your Umbrel system with a beautiful dashboard
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/dashdot/logo.png?raw=true
 category: system
 version: "5.9.0"
