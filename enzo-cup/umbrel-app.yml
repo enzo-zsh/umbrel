@@ -5,7 +5,7 @@ tagline: Docker container updates made easy
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/cup/icon.png?raw=true
 
 category: Docker monitoring
-version: "2.4.0"
+version: "3.4.0"
 port: 9000
 description: >-
   🥤 Docker container updates made easy
