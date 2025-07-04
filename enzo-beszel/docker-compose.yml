@@ -1,5 +1,0 @@
-services:
-  browservice:
-    image: 'walkero/browservice:latest-amd64'
-    ports:
-    - 8088:8080
