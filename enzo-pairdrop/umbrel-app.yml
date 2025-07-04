@@ -4,7 +4,7 @@ name: PairDrop
 tagline: AirDrop-Like File Sharing
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/pairdrop/icon.png?raw=true
 category: file sender
-version: "1.10.10"
+version: "1.11.2"
 port: 3005
 description: >-
   📄 File sharing on your local network that works on all platforms.
