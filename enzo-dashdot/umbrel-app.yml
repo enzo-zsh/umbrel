@@ -4,7 +4,7 @@ name: Dashdot
 tagline: Monitor your Umbrel system with a beautiful dashboard
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/dashdot/logo.png?raw=true
 category: system
-version: "5.9.0"
+version: "6.0.0"
 port: 3001
 description: >-
   A simple, modern server dashboard, primarily used by smaller private servers.
