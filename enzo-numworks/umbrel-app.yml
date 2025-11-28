@@ -20,7 +20,7 @@ submission: https://github.com/enzo-zsh/umbrel
 repo: https://github.com/numworks/epsilon
 support: https://github.com/numworks/epsilon
 gallery: 
-  - screenshots-icon/numworks/numworks.png
+  - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/numworks/numworks.png?raw=true
 releaseNotes: >-
 dependencies: []
 path: ""
