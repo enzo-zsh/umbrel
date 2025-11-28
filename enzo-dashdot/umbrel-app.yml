@@ -16,8 +16,7 @@ submission: https://github.com/enzo-zsh/umbrel
 repo: https://github.com/MauriceNino/dashdot
 support: https://github.com/MauriceNino/dashdot
 gallery: 
-  - https://raw.githubusercontent.com/MauriceNino/dashdot/refs/heads/main/apps/docs/static/img/screenshot_darkmode_with_perc.png
-  - https://raw.githubusercontent.com/MauriceNino/dashdot/refs/heads/main/apps/docs/static/img/screenshot_lightmode.png
+  - screenshots-icon/dashdot/dashdot.png
 releaseNotes: >-
   - Add Debian logo
 dependencies: []
