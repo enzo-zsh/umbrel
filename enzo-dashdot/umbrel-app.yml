@@ -4,7 +4,7 @@ name: Dashdot
 tagline: Monitor your Umbrel system with a beautiful dashboard
 icon: https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/dashdot/logo.png?raw=true
 category: system
-version: "6.0.0"
+version: "6.2.0"
 port: 3001
 description: >-
   A simple, modern server dashboard, primarily used by smaller private servers.
@@ -18,7 +18,14 @@ support: https://github.com/MauriceNino/dashdot
 gallery: 
   - https://github.com/enzo-zsh/umbrel/blob/master/screenshots-icon/dashdot/dashdot.png?raw=true
 releaseNotes: >-
-  - Add Debian logo
+  Bug Fixes (6.2.0):
+
+  - auto sizing for chart not working on load (6b88601)
+  -  docs: update configuration url in readme (#1227) (1941c26)
+  - report host os instead of container os (#1233) (508c832), closes #1232
+
+  Features:
+  - added sub/root/base path routing (#1229) (70c26d0)
 dependencies: []
 path: ""
 defaultUsername: ""
